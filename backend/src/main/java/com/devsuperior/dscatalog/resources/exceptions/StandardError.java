@@ -3,11 +3,11 @@ package com.devsuperior.dscatalog.resources.exceptions;
 import java.io.Serializable;
 import java.time.Instant;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class StandardError implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
